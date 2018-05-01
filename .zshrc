@@ -94,8 +94,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi="vim"
-alias gi="git"
-alias ll="ls -la"
+alias gi="git”
+alias ll='ls -laf'
 alias grep="grep --color"
 alias ps="ps aux"
 alias tree="tree -a"
@@ -121,6 +121,13 @@ function peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+
+export PATH=$PATH:./node_modules/.bin
+export PATH="$PATH:`yarn global bin`"
+
+autoload -U compinit
+compinit
 
 function peco-repo() {
   local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
