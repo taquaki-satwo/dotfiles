@@ -94,8 +94,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi="vim"
-alias gi="git”
-alias ll='ls -laf'
+alias gi="git"
+alias ll="ls -laf"
 alias grep="grep --color"
 alias ps="ps aux"
 alias tree="tree -a"
