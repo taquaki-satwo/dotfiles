@@ -141,3 +141,5 @@ zle -N peco-repo
 bindkey '^]' peco-repo
 
 export PATH="/usr/local/sbin:$PATH"
+alias dck=docker
+alias dcc=docker-compose
