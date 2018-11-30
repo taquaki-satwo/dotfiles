@@ -143,3 +143,6 @@ bindkey '^]' peco-repo
 export PATH="/usr/local/sbin:$PATH"
 alias dck=docker
 alias dcc=docker-compose
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
