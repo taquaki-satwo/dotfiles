@@ -146,4 +146,3 @@ alias dcc=docker-compose
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-export PATH=~/.composer/vendor/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/openssl/bin:/usr/local/sbin:/Users/takaaki/.anyenv/envs/rbenv/shims:/Users/takaaki/.anyenv/envs/rbenv/bin:/Users/takaaki/.anyenv/envs/phpenv/shims:/Users/takaaki/.anyenv/envs/phpenv/bin:/Users/takaaki/.anyenv/envs/ndenv/shims:/Users/takaaki/.anyenv/envs/ndenv/bin:/Users/takaaki/.anyenv/envs/jenv/shims:/Users/takaaki/.anyenv/envs/jenv/bin:/Users/takaaki/.anyenv/envs/goenv/shims:/Users/takaaki/.anyenv/envs/goenv/bin:/Users/takaaki/.anyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:./node_modules/.bin:/usr/local/bin
