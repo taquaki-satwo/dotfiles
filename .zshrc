@@ -146,3 +146,8 @@ alias dcc=docker-compose
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
+autoload colors
+colors
+
+PROMPT="%{${fg[green]}%}%n@%m %{${fg[red]}%}% $ %{${reset_color}%}"
