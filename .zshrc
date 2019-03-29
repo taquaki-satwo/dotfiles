@@ -124,7 +124,7 @@ bindkey '^r' peco-select-history
 
 
 export PATH=$PATH:./node_modules/.bin
-export PATH="$PATH:`yarn global bin`"
+# export PATH="$PATH:`yarn global bin`"
 
 autoload -U compinit
 compinit
@@ -150,4 +150,8 @@ export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 autoload colors
 colors
 
-PROMPT="%{${fg[green]}%}%n@%m %{${fg[red]}%}% $ %{${reset_color}%}"
+# ROMPT="%{${fg[green]}%}%n@%m %{${fg[red]}%}% $ %{${reset_color}%}"
+
+autoload -U promptinit; promptinit
+# prompt pure
+
