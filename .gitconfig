@@ -1,0 +1,13 @@
+[user]
+	name = takaaki sato
+	email = takaaki.sato@zozo.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
