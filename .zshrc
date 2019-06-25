@@ -155,3 +155,5 @@ colors
 autoload -U promptinit; promptinit
 # prompt pure
 
+function git(){hub "$@"}
+
