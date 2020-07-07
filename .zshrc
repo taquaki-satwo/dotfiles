@@ -157,3 +157,5 @@ autoload -U promptinit; promptinit
 
 function git(){hub "$@"}
 
+alias brew="env PATH=\"${PATH/~\/\.anyenv\/envs\/pyenv\/shims:/}\" brew"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
