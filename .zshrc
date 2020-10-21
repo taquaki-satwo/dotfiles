@@ -160,3 +160,6 @@ function git(){hub "$@"}
 setopt nonomatch
 alias brew="env PATH=\"${PATH/~\/\.anyenv\/envs\/pyenv\/shims:/}\" brew"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+PATH=${JAVA_HOME}/bin:${PATH}
